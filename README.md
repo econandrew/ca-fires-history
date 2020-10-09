@@ -1,6 +1,6 @@
 # Github Archiver Template
 
-A template to create a self-scraping archiver using Github Actions. Based entirely on @simonw's [clever idea](https://simonwillison.net/2020/Oct/9/git-scraping/).
+A template to create a self-scraping archiver using Github Actions. Based entirely on [@simonw](https://github.com/simonw)'s [clever idea](https://simonwillison.net/2020/Oct/9/git-scraping/).
 
 # To use
 
