@@ -6,13 +6,13 @@ A template to create a self-scraping archiver using Github Actions. Based entire
 
 1. Click the green "Use this template" button to create a new repository in your account ([detailed instructions](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)).
 <details>
-  <summary>See image</summary>
+  <summary>See example screenshot</summary>
   <img src="https://docs.github.com/assets/images/help/repository/use-this-template-button.png">
 </details>
 
-2. Select the "Actions" tab then click the green "Enable Github Actions" button:
+2. Select the "Actions" tab then click the green "Enable Actions on this repository" button:
 <details>
-  <summary>See image</summary>
+  <summary>See example screenshot</summary>
   <img src="actions.png">
 </details>
 
@@ -21,6 +21,6 @@ A template to create a self-scraping archiver using Github Actions. Based entire
 _Optional:_
 
 4. To change the default daily 12pm UTC schedule, edit [this line](.github/workflows/scrape.yml#L7), using [cron notation](https://en.wikipedia.org/wiki/Cron#Overview). If you edit in Github, it will helpfully interpret the cron notation on hover. Some examples:
-    - Every 10 minutes: "*/10 * * * *"
-    - Every hour on the hour "0 * * * *"
-    - Once a week on Friday at 4pm UTC "0 16 * * 5"
+    - Every 10 minutes: '*/10 * * * *'
+    - Every hour on the hour: '0 * * * *'
+    - Once a week on Friday at 4pm UTC: '0 16 * * 5'
