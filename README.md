@@ -20,4 +20,7 @@ A template to create a self-scraping archiver using Github Actions. Based entire
 
 _Optional:_
 
-4. To change the default daily 12pm UTC schedule, edit [this line](.github/workflows/scrape.yml#L7), using [cron notation](https://en.wikipedia.org/wiki/Cron#Overview). (If you edit in Github, it will helpfully interpret the cron notation on hover.)
+4. To change the default daily 12pm UTC schedule, edit [this line](.github/workflows/scrape.yml#L7), using [cron notation](https://en.wikipedia.org/wiki/Cron#Overview). If you edit in Github, it will helpfully interpret the cron notation on hover. Some examples:
+    - Every 10 minutes: "*/10 * * * *"
+    - Every hour on the hour "0 * * * *"
+    - Once a week on Friday at 4pm UTC "0 16 * * 5"
