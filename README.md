@@ -5,14 +5,16 @@ A template to create a self-scraping archiver using Github Actions. Based entire
 # To use
 
 1. Click the green "Use this template" button to create a new repository in your account ([detailed instructions](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)).
-
-| ![Template button example](https://docs.github.com/assets/images/help/repository/use-this-template-button.png)
-|-
+<details>
+  <summary>See image</summary>
+  <img src="https://docs.github.com/assets/images/help/repository/use-this-template-button.png">
+</details>
 
 2. Select the "Actions" tab then click the green "Enable Github Actions" button:
-
-| ![Enable github actions example](actions.png)
-|-
+<details>
+  <summary>See image</summary>
+  <img src="actions.png">
+</details>
 
 3. Edit [this line](.github/workflows/scrape.yml#L17) to include the correct URL that you want to archive. Maybe also change the output file from 'results.csv' if you want something else. You can also do things like pretty print the output here if JSON, as the inspiration project did.
 
