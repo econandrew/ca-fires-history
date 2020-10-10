@@ -25,4 +25,4 @@ _Optional:_
     - Every hour on the hour: '0 * * * *'
     - Once a week on Friday at 4pm UTC: '0 16 * * 5'
     
-The file download will also be triggered by a push, or can be run manually in [Actions](../../actions?query=workflow%3A%22Scrape+latest+data%22)
+The file download will also be triggered by a push, or can be run manually in [Actions](../../actions?query=workflow%3A%22Scrape+latest+data%22). **It seems like Github takes a while to apply a new schedule, so if you set a close schedule don't worry if it doesn't work straight away.**
